@@ -1,29 +1,10 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Bright Side Services",
-    "url": "https://www.brightsideservices.it"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Bright Side Services",
-    "url": "https://www.brightsideservices.it",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Via Zanda 8",
-      "addressLocality": "Treviglio",
-      "addressRegion": "Lombardia",
-      "postalCode": "24047",
-      "addressCountry": "IT"
-    }
-  },
-  {
-    "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Bright Side Services",
     "url": "https://www.brightsideservices.it",
+    "telephone": "+39 0363 1806834",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Via Zanda 8",
@@ -32,7 +13,29 @@
       "postalCode": "24047",
       "addressCountry": "IT"
     },
-    "telephone": "+39 0363 1806834",
+    "sameAs": [
+      "https://www.instagram.com/brightsideservices.it/"
+    ],
+    "areaServed": [
+      "Treviglio",
+      "Brescia",
+      "Arcene",
+      "Arzago d'Adda",
+      "Bergamo",
+      "Brignano Gera d’Adda",
+      "Calvenzano",
+      "Caravaggio",
+      "Casirate d’Adda",
+      "Cassano d’Adda",
+      "Dalmine",
+      "Fara Gera d’Adda",
+      "Fornovo San Giovanni",
+      "Mozzanica",
+      "Rivolta d’Adda",
+      "Stezzano",
+      "Verdello",
+      "Vidalengo"
+    ],
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -48,52 +51,40 @@
         "closes": "18:00"
       }
     ],
-    "description": "Pulizie professionali per uffici, abitazioni e Airbnb a Treviglio. Lavaggio vetrate, pulizia post cantiere e trattamento anti-muffa.",
-    "image": "https://images.squarespace-cdn.com/content/668a87b99b08a7321bfb8764/04aec122-3466-4f56-afd7-34dd6a7ef2ea/Bright+Side+Services+Logo.jpg",
-    "priceRange": "MidRange"
     "aggregateRating": {
-  "@type": "AggregateRating",
-  "ratingValue": "4.9",
-  "reviewCount": "146"
-      "sameAs": [
-    "https://www.instagram.com/brightsideservices.it/"
-  ],
-  "areaServed": [
-    "Treviglio", "Brescia", "Arcene", "Arzago d'Adda", "Bergamo",
-    "Brignano Gera d’Adda", "Calvenzano", "Caravaggio",
-    "Casirate d’Adda", "Cassano d’Adda", "Dalmine",
-    "Fara Gera d’Adda", "Fornovo San Giovanni",
-    "Mozzanica", "Rivolta d’Adda", "Stezzano", "Verdello",
-    "Vidalengo"
-  ],
-  "makesOffer": [
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Pulizia post-cantiere professionale"
-      }
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "142"
     },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Lavaggio vetri e facciate in altezza (fino a 16 m)"
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pulizia post-cantiere professionale"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Lavaggio vetri e facciate in altezza (fino a 16 m)"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pulizia vetrine e vetrate"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Idropulizia professionale superfici esterne"
+        }
       }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Pulizia vetrine e vetrate"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Idropulizia professionale superfici esterne"
-}
-
+    ]
   }
 ]
