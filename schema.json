@@ -4,10 +4,7 @@
   "name": "Bright Side Services",
   "url": "https://www.brightsideservices.it"
 }
-</script>
 
-<!-- Schema Organization -->
-<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -146,10 +143,7 @@
     }
   ]
 }
-</script>
 
-<!-- Schema Local Business -->
-<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -288,10 +282,7 @@
     }
   ]
 }
-</script>
 
-<!-- Schema Organization -->
-<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -316,9 +307,7 @@
     { "@type": "Place", "name": "Vidalengo" }
   ]
 }
-</script>
 
-<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
