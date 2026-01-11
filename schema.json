@@ -1,340 +1,99 @@
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Bright Side Services",
-  "url": "https://www.brightsideservices.it"
-}
-
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Bright Side Services",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Via Zanda 8",
-    "addressLocality": "Treviglio",
-    "addressRegion": "Lombardia",
-    "postalCode": "24047",
-    "addressCountry": "IT"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Bright Side Services",
+    "url": "https://www.brightsideservices.it"
   },
-  "telephone": "+3903631806834",
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-      ],
-      "opens": "08:00",
-      "closes": "18:00"
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Bright Side Services",
+    "url": "https://www.brightsideservices.it",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Zanda 8",
+      "addressLocality": "Treviglio",
+      "addressRegion": "Lombardia",
+      "postalCode": "24047",
+      "addressCountry": "IT"
     }
-  ],
-  "description": "Pulizie professionali per uffici, abitazioni e Airbnb a Treviglio. Lavaggio vetrate, pulizia post cantiere e trattamento anti-muffa. Scopri i nostri servizi premium!",
-  "serviceType": [
-    "Post-costruzione",
-    "Pulizia vetri",
-    "Pulizia uffici e negozi",
-    "Pulizia residenziale",
-    "Pulizia Airbnb",
-    "Trattamento anti-muffa"
-  ],
-  "areaServed": {
-    "@type": "AdministrativeArea",
-    "name": "Treviglio"
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "130"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Servizi di Pulizia",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pulizia post-costruzione" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pulizia vetri" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pulizia uffici e negozi" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pulizia residenziale" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pulizia Airbnb" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Trattamento anti-muffa" } }
-    ]
-  },
-  "potentialAction": {
-    "@type": "CommunicateAction",
-    "target": "https://www.brightsideservices.it/#mobile-widget",
-    "name": "Live chat support"
-  },
-  "logo": "https://images.squarespace-cdn.com/content/668a87b99b08a7321bfb8764/04aec122-3466-4f56-afd7-34dd6a7ef2ea/Bright+Side+Services+Logo.jpg?content-type=image%2Fjpeg",
-  "priceRange": "MidRange",
-  "contactPoint": {
-    "@type": "ContactPoint",
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Bright Side Services",
+    "url": "https://www.brightsideservices.it",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Zanda 8",
+      "addressLocality": "Treviglio",
+      "addressRegion": "Lombardia",
+      "postalCode": "24047",
+      "addressCountry": "IT"
+    },
     "telephone": "+39 0363 1806834",
-    "contactType": "Customer Service",
-    "areaServed": "IT",
-    "availableLanguage": "Italian",
-    "url": "https://wa.me/3903631806834",
-    "email": "info@brightsideservices.it"
-  },
-  "image": "https://images.squarespace-cdn.com/content/668a87b99b08a7321bfb8764/04aec122-3466-4f56-afd7-34dd6a7ef2ea/Bright+Side+Services+Logo.jpg?content-type=image%2Fjpeg",
-  "faqPage": "https://www.brightsideservices.it/faq",
-  "faq": [
-    {
-      "@type": "Question",
-      "name": "Quali servizi offrite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pulizia post-costruzione, uffici, negozi, vetrine, residenziale, Airbnb e lavaggio profondo di pavimenti esterni."
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
       }
-    },
-    {
-      "@type": "Question",
-      "name": "Come posso richiedere un preventivo?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Contattaci tramite telefono, email, WhatsApp o livechat. Dopo il sopralluogo, inviamo un preventivo."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Quanto tempo richiedono i servizi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pulizia post-costruzione: 4 mezze giornate; altri servizi: da 30 minuti a 2 ore."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Come posso prenotare un servizio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Prenota dopo aver accettato il preventivo tramite telefono, email, WhatsApp o livechat."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In quale area offrite i vostri servizi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Principalmente a Treviglio, ma anche nelle zone limitrofe."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Quali metodi di pagamento accettate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Accettiamo contanti, carta, bonifico bancario e Klarna."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Siete assicurati in caso di danni?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sì, siamo assicurati con Generali Assicurazioni per danni a oggetti, superfici o persone."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Offrite una garanzia sui servizi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sì, offriamo una garanzia sui servizi, salvo in caso di danni permanenti o sporco eccessivo."
-      }
-    }
-  ]
-}
-
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Bright Side Services",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Via Zanda 8",
-    "addressLocality": "Treviglio",
-    "addressRegion": "Lombardia",
-    "postalCode": "24047",
-    "addressCountry": "IT"
-  },
-  "telephone": "+3903631806834",
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-      ],
-      "opens": "08:00",
-      "closes": "18:00"
-    }
+    ],
+    "description": "Pulizie professionali per uffici, abitazioni e Airbnb a Treviglio. Lavaggio vetrate, pulizia post cantiere e trattamento anti-muffa.",
+    "image": "https://images.squarespace-cdn.com/content/668a87b99b08a7321bfb8764/04aec122-3466-4f56-afd7-34dd6a7ef2ea/Bright+Side+Services+Logo.jpg",
+    "priceRange": "MidRange"
+    "aggregateRating": {
+  "@type": "AggregateRating",
+  "ratingValue": "4.9",
+  "reviewCount": "146"
+      "sameAs": [
+    "https://www.instagram.com/brightsideservices.it/"
   ],
-  "description": "Pulizie professionali per uffici, abitazioni e Airbnb a Treviglio. Lavaggio vetrate, pulizia post cantiere e trattamento anti-muffa. Scopri i nostri servizi premium!",
-  "serviceType": [
-    "Post-costruzione",
-    "Pulizia vetri",
-    "Pulizia uffici e negozi",
-    "Pulizia residenziale",
-    "Pulizia Airbnb",
-    "Trattamento anti-muffa"
+  "areaServed": [
+    "Treviglio", "Brescia", "Arcene", "Arzago d'Adda", "Bergamo",
+    "Brignano Gera d’Adda", "Calvenzano", "Caravaggio",
+    "Casirate d’Adda", "Cassano d’Adda", "Dalmine",
+    "Fara Gera d’Adda", "Fornovo San Giovanni",
+    "Mozzanica", "Rivolta d’Adda", "Stezzano", "Verdello",
+    "Vidalengo"
   ],
-  "areaServed": {
-    "@type": "AdministrativeArea",
-    "name": "Treviglio"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "130"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Servizi di Pulizia",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pulizia post-costruzione" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pulizia vetri" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pulizia uffici e negozi" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pulizia residenziale" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pulizia Airbnb" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Trattamento anti-muffa" } }
-    ]
-  },
-  "potentialAction": {
-    "@type": "CommunicateAction",
-    "target": "https://www.brightsideservices.it/#mobile-widget",
-    "name": "Live chat support"
-  },
-  "logo": "https://images.squarespace-cdn.com/content/668a87b99b08a7321bfb8764/04aec122-3466-4f56-afd7-34dd6a7ef2ea/Bright+Side+Services+Logo.jpg?content-type=image%2Fjpeg",
-  "priceRange": "MidRange",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+39 0363 1806834",
-    "contactType": "Customer Service",
-    "areaServed": "IT",
-    "availableLanguage": "Italian",
-    "url": "https://wa.me/3903631806834",
-    "email": "info@brightsideservices.it"
-  },
-  "image": "https://images.squarespace-cdn.com/content/668a87b99b08a7321bfb8764/04aec122-3466-4f56-afd7-34dd6a7ef2ea/Bright+Side+Services+Logo.jpg?content-type=image%2Fjpeg",
-  "faqPage": "https://www.brightsideservices.it/faq",
-  "faq": [
+  "makesOffer": [
     {
-      "@type": "Question",
-      "name": "Quali servizi offrite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pulizia post-costruzione, uffici, negozi, vetrine, residenziale, Airbnb e lavaggio profondo di pavimenti esterni."
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Pulizia post-cantiere professionale"
       }
     },
     {
-      "@type": "Question",
-      "name": "Come posso richiedere un preventivo?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Contattaci tramite telefono, email, WhatsApp o livechat. Dopo il sopralluogo, inviamo un preventivo."
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Lavaggio vetri e facciate in altezza (fino a 16 m)"
       }
     },
     {
-      "@type": "Question",
-      "name": "Quanto tempo richiedono i servizi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pulizia post-costruzione: 4 mezze giornate; altri servizi: da 30 minuti a 2 ore."
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Pulizia vetrine e vetrate"
       }
     },
     {
-      "@type": "Question",
-      "name": "Come posso prenotare un servizio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Prenota dopo aver accettato il preventivo tramite telefono, email, WhatsApp o livechat."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In quale area offrite i vostri servizi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Principalmente a Treviglio, ma anche nelle zone limitrofe."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Quali metodi di pagamento accettate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Accettiamo contanti, carta, bonifico bancario e Klarna."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Siete assicurati in caso di danni?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sì, siamo assicurati con Generali Assicurazioni per danni a oggetti, superfici o persone."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Offrite una garanzia sui servizi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sì, offriamo una garanzia sui servizi, salvo in caso di danni permanenti o sporco eccessivo."
-      }
-    }
-  ]
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Idropulizia professionale superfici esterne"
 }
 
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Bright Side Services",
-  "url": "https://www.brightsideservices.it",
-  "areaServed": [
-    { "@type": "Place", "name": "Treviglio" },
-    { "@type": "Place", "name": "Arcene" },
-    { "@type": "Place", "name": "Arzago d'Adda" },
-    { "@type": "Place", "name": "Bergamo" },
-    { "@type": "Place", "name": "Brignano Gera d'Adda" },
-    { "@type": "Place", "name": "Calvenzano" },
-    { "@type": "Place", "name": "Caravaggio" },
-    { "@type": "Place", "name": "Casirate d'Adda" },
-    { "@type": "Place", "name": "Cassano d'Adda" },
-    { "@type": "Place", "name": "Dalmine" },
-    { "@type": "Place", "name": "Fornovo San Giovanni" },
-    { "@type": "Place", "name": "Mozzanica" },
-    { "@type": "Place", "name": "Rivolta d'Adda" },
-    { "@type": "Place", "name": "Stezzano" },
-    { "@type": "Place", "name": "Verdello" },
-    { "@type": "Place", "name": "Vidalengo" }
-  ]
-}
-
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Bright Side Services",
-  "url": "https://www.brightsideservices.it",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Treviglio",
-    "addressRegion": "BG",
-    "addressCountry": "IT"
-  },
-  "areaServed": [
-    { "@type": "Place", "name": "Treviglio" },
-    { "@type": "Place", "name": "Arcene" },
-    { "@type": "Place", "name": "Arzago d'Adda" },
-    { "@type": "Place", "name": "Bergamo" },
-    { "@type": "Place", "name": "Brignano Gera d'Adda" },
-    { "@type": "Place", "name": "Calvenzano" },
-    { "@type": "Place", "name": "Caravaggio" },
-    { "@type": "Place", "name": "Casirate d'Adda" },
-    { "@type": "Place", "name": "Cassano d'Adda" },
-    { "@type": "Place", "name": "Dalmine" },
-    { "@type": "Place", "name": "Fornovo San Giovanni" },
-    { "@type": "Place", "name": "Mozzanica" },
-    { "@type": "Place", "name": "Rivolta d'Adda" },
-    { "@type": "Place", "name": "Stezzano" },
-    { "@type": "Place", "name": "Verdello" },
-    { "@type": "Place", "name": "Vidalengo" }
-  ]
-}
+  }
+]
